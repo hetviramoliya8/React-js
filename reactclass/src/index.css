@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+a ::after{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    left: 0;
+    bottom: -10;
+}
