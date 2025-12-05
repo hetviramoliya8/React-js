@@ -33,12 +33,12 @@ export default function Register() {
   }
 
   return (
- <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-300 via-indigo-200 to-blue-200 p-6">
+ <div className="min-h-screen flex items-center justify-center bg-linear-to-br from-purple-300 via-indigo-200 to-blue-200 p-6">
 
   <div className="bg-white shadow-2xl rounded-3xl overflow-hidden flex flex-col md:flex-row w-full max-w-5xl">
 
     {/* LEFT SIDE BANNER */}
-    <div className="md:w-1/2 bg-gradient-to-br from-purple-500 to-indigo-500 text-white p-12 flex flex-col justify-center items-start">
+    <div className="md:w-1/2 bg-linear-to-br from-purple-500 to-indigo-500 text-white p-12 flex flex-col justify-center items-start">
       <h1 className="text-4xl md:text-5xl font-extrabold leading-tight drop-shadow-lg">
         Create Your Account
       </h1>
